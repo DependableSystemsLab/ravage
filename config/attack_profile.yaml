@@ -1,0 +1,46 @@
+# Sensor_config.yaml
+GPS:
+  time: 60
+  bias_range: [-10, 10]
+  bias_pattern: "increasing"
+  update_frequency: 0.1
+  bias_intensity: 10
+  max_hoping_distance: 50
+  max_attack_duration: 60
+  max_attack_distance: 600
+GYRO:
+  time: 60
+  bias_range: [-10, 10]
+  bias_pattern: "decreasing"
+  update_frequency: 0.05
+  bias_intensity: 10
+  max_displacement: 80
+  max_attack_duration: 30
+  max_attack_distance: 100
+MAG:
+  time: 60
+  bias_range: [-10, 10]
+  bias_pattern: "increasing"
+  update_frequency: 0.02
+  bias_intensity: 10
+  max_rotation: 35
+  max_attack_duration: 60
+  max_attack_distance: 200
+OPTICAL_FLOW:
+  time: 60
+  bias_range: [-10, 10]
+  bias_pattern: "constant"
+  update_frequency: 0.04
+  bias_intensity: 10
+  max_flow_rate: 7.07
+  max_attack_duration: 30
+  max_attack_distance: 250
+ACCELEROMETER:
+  time: 60
+  bias_range: [-10, 10]
+  bias_pattern: "constant"
+  update_frequency: 0.005
+  bias_intensity: 10
+  max_velocity: 3.9
+  max_attack_duration: 20
+  max_attack_distance: 86

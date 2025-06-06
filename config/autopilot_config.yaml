@@ -1,0 +1,13 @@
+# Main_config.yaml
+#Path
+RAVAGE_HOME: "/home/ravage/ravage/"
+ARDUPILOT_HOME: "/home/ravage/ardupilot/"
+PX4_HOME: "/home/ravage/PX4-Autopilot/"
+
+#Waypoint file
+WAYPOINT_FILE: "/square_copter.txt"
+
+#Vehicle types
+ROVER: "No"
+COPTER: "Yes"
+SUB: "No"
