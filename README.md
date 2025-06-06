@@ -111,3 +111,15 @@ python ravage.py -s ArduPilot -a GPS -i 3
 ```
 
 This example initializes the simulation, sets mission waypoints, and performs a GPS spoofing attack during the mission.
+
+## Citation
+If you find our work useful in your research, please consider citing:
+
+```
+@inproceedings{dash2025ravage,
+      title={RAVAGE: Robotic Autonomous Vehicles' Attack Generation Engine}, 
+      author={Dash, Pritam and Pattabiraman, Karthik},
+      booktitle = {The 55th Annual IEEE/IFIP International Conference on Dependable Systems and Networks (DSN)},
+      year={2025}
+}
+```
